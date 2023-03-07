@@ -22,7 +22,7 @@ return new class extends Migration
             $table->smallInteger('year');
             $table->date('birthDate');
             $table->string('gender', 6);
-            $table->timestamps();s
+            $table->timestamps();
         });
     }
 
